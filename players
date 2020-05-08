@@ -1,0 +1,18 @@
+Initiative
+
+Description:
+Roll the initiative for the selected 
+
+initiative
+
+%{selected|Initiative}
+
+
+My Defenses
+
+Description:
+Gm whisper your defense stats, replace Hedros with your character's name
+
+my-defenses
+
+/w gm &{template:default} {{name=@{Hedros|character_name}'s Defenses }} {{Armor=AC:@{Hedros|ac} Shield:@{Hedros|armor_class_shield}}} {{Saves=[Fort +@{Hedros|saving_throws_fortitude}](~Hedros|FORT) [Reflex+@{Hedros|saving_throws_reflex}](~Hedros|REF) [Will+@{Hedros|saving_throws_will}](~Hedros|WILL)}}

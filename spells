@@ -1,0 +1,25 @@
+Full Spellbook
+
+Description:
+Lists all of the cantrips then all of the leveled spells and in parenthesees, it lists now many uses you have of the spell. See the wiki link up top to learn how to add focus spells and innate spell sections
+
+Spells(Innate): %{selected|repeating_spellinnate_$id_spellroll}
+Spells(Focus): %{selected|repeating_spellfocus_$id_spellroll}
+Spells(Cantrip): %{selected|repeating_cantrip_$id_spellroll}
+Spells(lvl.1-10): %{selected|repeating_normalspells_$id_spellroll}
+
+full-spellbook
+
+/w Hedros&{template:default} {{name=@{Hedros|character_name}'s Spell Book }} {{Cantrips:=[@{Hedros|repeating_cantrip_$0_name} (@{Hedros|repeating_cantrip_$0_uses})](~Hedros|repeating_cantrip_$0_spellroll)[@{Hedros|repeating_cantrip_$1_name} (@{Hedros|repeating_cantrip_$1_uses})](~Hedros|repeating_cantrip_$1_spellroll)[@{Hedros|repeating_cantrip_$2_name} (@{Hedros|repeating_cantrip_$2_uses})](~Hedros|repeating_cantrip_$2_spellroll)[@{Hedros|repeating_cantrip_$3_name} (@{Hedros|repeating_cantrip_$3_uses})](~Hedros|repeating_cantrip_$3_spellroll)[@{Hedros|repeating_cantrip_$4_name} (@{Hedros|repeating_cantrip_$4_uses})](~Hedros|repeating_cantrip_$4_spellroll)[@{Hedros|repeating_cantrip_$5_name} (@{Hedros|repeating_cantrip_$5_uses})](~Hedros|repeating_cantrip_$5_spellroll)[@{Hedros|repeating_cantrip_$6_name} (@{Hedros|repeating_cantrip_$6_uses})](~Hedros|repeating_cantrip_$6_spellroll)[@{Hedros|repeating_cantrip_$7_name} (@{Hedros|repeating_cantrip_$7_uses})](~Hedros|repeating_cantrip_$7_spellroll)[@{Hedros|repeating_cantrip_$8_name} (@{Hedros|repeating_cantrip_$8_uses})](~Hedros|repeating_cantrip_$8_spellroll)[@{Hedros|repeating_cantrip_$9_name} (@{Hedros|repeating_cantrip_$9_uses})](~Hedros|repeating_cantrip_$9_spellroll)[@{Hedros|repeating_cantrip_$10_name} (@{Hedros|repeating_cantrip_$10_uses})](~Hedros|repeating_cantrip_$10_spellroll)[@{Hedros|repeating_cantrip_$11_name} (@{Hedros|repeating_cantrip_$11_uses})](~Hedros|repeating_cantrip_$11_spellroll)}}{{Levels:= [@{Hedros|repeating_normalspells_$0_name} (@{Hedros|repeating_normalspells_$0_uses})](~Hedros|repeating_normalspells_$0_spellroll)[@{Hedros|repeating_normalspells_$1_name} (@{Hedros|repeating_normalspells_$1_uses})](~Hedros|repeating_normalspells_$1_spellroll)[@{Hedros|repeating_normalspells_$2_name} (@{Hedros|repeating_normalspells_$2_uses})](~Hedros|repeating_normalspells_$2_spellroll)[@{Hedros|repeating_normalspells_$3_name} (@{Hedros|repeating_normalspells_$3_uses})](~Hedros|repeating_normalspells_$3_spellroll)[@{Hedros|repeating_normalspells_$4_name} (@{Hedros|repeating_normalspells_$4_uses})](~Hedros|repeating_normalspells_$4_spellroll)[@{Hedros|repeating_normalspells_$5_name} (@{Hedros|repeating_normalspells_$5_uses})](~Hedros|repeating_normalspells_$5_spellroll)[@{Hedros|repeating_normalspells_$6_name} (@{Hedros|repeating_normalspells_$6_uses})](~Hedros|repeating_normalspells_$6_spellroll)[@{Hedros|repeating_normalspells_$7_name} (@{Hedros|repeating_normalspells_$7_uses})](~Hedros|repeating_normalspells_$7_spellroll)}}
+
+
+
+
+Prepared Spells
+
+Description:
+Move your prepared spells to the top of the list on your character sheet
+
+prepared-spells
+
+/w Hedros&{template:default} {{name=@{Hedros|character_name}'s Spell Book }} {{Cantrips:=[@{Hedros|repeating_cantrip_$0_name} (@{Hedros|repeating_cantrip_$0_uses})](~Hedros|repeating_cantrip_$0_spellroll)[@{Hedros|repeating_cantrip_$1_name} (@{Hedros|repeating_cantrip_$1_uses})](~Hedros|repeating_cantrip_$1_spellroll)[@{Hedros|repeating_cantrip_$2_name} (@{Hedros|repeating_cantrip_$2_uses})](~Hedros|repeating_cantrip_$2_spellroll)[@{Hedros|repeating_cantrip_$3_name} (@{Hedros|repeating_cantrip_$3_uses})](~Hedros|repeating_cantrip_$3_spellroll)[@{Hedros|repeating_cantrip_$4_name} (@{Hedros|repeating_cantrip_$4_uses})](~Hedros|repeating_cantrip_$4_spellroll)[@{Hedros|repeating_cantrip_$5_name} (@{Hedros|repeating_cantrip_$5_uses})](~Hedros|repeating_cantrip_$5_spellroll)}}{{Level 1:= [@{Hedros|repeating_normalspells_$0_name} (@{Hedros|repeating_normalspells_$0_uses})](~Hedros|repeating_normalspells_$0_spellroll)[@{Hedros|repeating_normalspells_$1_name} (@{Hedros|repeating_normalspells_$1_uses})](~Hedros|repeating_normalspells_$1_spellroll)}}

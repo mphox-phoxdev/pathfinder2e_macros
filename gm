@@ -1,0 +1,30 @@
+Useful for GMs
+
+All Perceptions
+
+Desicription:
+Currently filled with the perception of all of the players, replace with the names of your players
+
+
+all-perceptions
+
+/w gm &{template:default} {{name=Perceptions}}  {{Hedros = DC [[@{Hedros|perception} + 10]] Roll [[1d20 +@{Hedros|perception}]] }} {{Brenioron = DC [[@{Brenioron |perception} + 10]] Roll [[1d20 +@{Brenioron |perception}]] }}{{Hops= DC [[@{Hops|perception} + 10]] Roll [[1d20 +@{Hops|perception}]] }} {{Vynce Galtstrad= DC [[@{Vynce Galtstrad|perception} + 10]] Roll [[1d20 +@{Vynce Galtstrad|perception}]] }}
+
+
+Selected Defenses
+
+Description:
+Gm whisper the defense stats of the selected token
+
+/w gm &{template:default} {{name=@{selected|character_name}'s Spell Book }} {{Armor=AC:@{selected|ac} Shield:@{selected|armor_class_shield}}} {{Saves=[Fort +@{selected|saving_throws_fortitude}](~selected|FORT) [Reflex+@{selected|saving_throws_reflex}](~selected|REF) [Will+@{selected|saving_throws_will}](~selected|WILL)}}
+
+
+
+GM Initiative
+
+Description:
+Roll the initiative of the selected token and gm whisper the roll
+
+gm-initiative
+
+/w gm %{selected|Initiative}
