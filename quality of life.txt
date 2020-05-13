@@ -1,0 +1,22 @@
+Treat Wounds Table
+
+treat-wounds
+
+&{template:default} {{name=Treat Wounds}} {{Trained=**DC**:15 **Heal**:2d8 **Crit**:4d8}} {{Expert=**DC**:20 **Heal**:2d8+10 **Crit**:4d8+10}} {{Master=**DC**:30 **Heal**:2d8+30 **Crit**:4d8+30}} {{Legendary=**DC**:40 **Heal**:2d8+50 **Crit**:4d8+50}}
+
+
+
+Exploration
+
+exploration
+
+&{template:default} {{name=Common Exploration}} {{Avoid Notice*=Use Stealth}} {{Defend=Raise a Shield before fight}} {{Detect Magic*=Detect at regular intervals}} {{Follow the Expert*=Add level +2, +3, +4}} {{Hustle=Add level +2, +3, +4}} {{Investigate=Recall Knowledge secret for clues}}{{Repeat a Spell=Recast or Sustain a Spell}}{{Scout=Party gets +1 Initiative}}{{Search=Seek for hidden doors and hazards}}{{Full List=[Link](https://2e.aonprd.com/Traits.aspx?ID=66)}}
+
+
+
+Demoralize
+
+demoralize
+
+&{template:default} {{name=Demoralize}} {{Summary=Intimidation vs Will DC within 30 feet. Language/sound barrier gives –4 circumstance penalty Target is immune for 10 minutes.}}{{Critical=Frightened 2}}{{Success=Frightened 1}}{{Full Text=[Link](https://2e.aonprd.com/Actions.aspx?ID=53)}}
+
